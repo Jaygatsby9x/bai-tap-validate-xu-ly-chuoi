@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function isClassName(str) {
+        regexp = /^[CPA][0-9]{4}[GHIKLM]$/
+        if (regexp.test(str)) {
+            console.log("is class name")
+        } else
+            console.log("is not class name");
+    }
+    isClassName(prompt("enter the class name?"));
+</script>
+</body>
+</html>
